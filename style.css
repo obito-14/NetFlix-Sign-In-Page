@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url(/image/bg_image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.logo img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.sign_in {
+  background-color: #1a1918f0;
+  border: 1px solid rgba(0, 0, 0, 0.792);
+  text-align: center;
+  display: block;
+  justify-content: center;
+  height: 90vh;
+  width: 35vw;
+  border-radius: 3px;
+  margin: auto;
+  padding: 25px 40px;
+}
+.sign_in h1 {
+  text-align: start;
+  margin: 40px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.sign_in #email,
+#password {
+  width: 85%;
+  margin: 10px;
+  height: 45px;
+  background-color: rgb(58, 57, 57);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  outline-color: black;
+}
+.button button {
+  width: 85%;
+  height: 45px;
+  background-color: rgba(255, 6, 6, 0.889);
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+.helper {
+  color: rgb(122, 121, 121);
+  margin: 15px 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.helper a {
+  color: rgb(122, 121, 121);
+  text-decoration: none;
+}
+.helper a:hover {
+  border-bottom: 2px solid #fff;
+}
+.learn {
+  color: rgb(122, 121, 121);
+  margin: 0px 22px;
+  margin-top: 40px;
+  text-align: start;
+}
+.learn h4 {
+  text-align: start;
+  margin-bottom: 15px;
+}
+#more {
+  color: rgba(0, 0, 255, 0.863);
+  text-decoration: none;
+}
+#more:hover {
+  border-bottom: 2px solid #fff;
+}
+.learn p {
+  line-height: 19px;
+}
+#sign_up {
+  color: #fff;
+  text-decoration: none;
+}
+#sign_up:hover {
+  border-bottom: 2px solid #fff;
+}
+#new {
+  color: rgb(122, 121, 121);
+  text-decoration: none;
+}
+
+@media all and (max-width: 950px) {
+  .sign_in {
+    width: 60%;
+  }
+}
+@media all and (max-width: 630px) {
+  .sign_in {
+    width: 80%;
+  }
+}
+@media all and (max-width: 400px) {
+  .sign_in {
+    width: 100%;
+  }
+}
